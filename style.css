@@ -1,1 +1,22 @@
+header{
+    background-color: black;
+    color: white;
+    height: 30px;
 
+}
+.top-bar{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+body{
+    background-color: white;
+}
+.container2{
+    background-color: black;
+    color: white;
+}
+.images{
+    width: 10px;
+    height: 10px;  
+}
