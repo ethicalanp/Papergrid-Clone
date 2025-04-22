@@ -2,12 +2,14 @@ header{
     background-color: black;
     color: white;
     height: 30px;
+    text-align: center;
 
 }
 .top-bar{
     background-color: black;
     color: white;
     height: 50px;
+    text-align: center;
 }
 body{
     background-color: white;
