@@ -8,12 +8,15 @@ body{
     height: 38px;
     margin: 0%;
     
+    
+    
 }
 .topheader p{
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin: 0%;
     height: 38px;
+    
 
 }
 .topheader:hover{
@@ -23,6 +26,7 @@ body{
     height:  89px;
     display: flex;
     align-items: center;
+    
 
 }
 .logo{
@@ -52,15 +56,12 @@ body{
     list-style: none;
     height: 88.39px;
 }
-
-.nav navcontainer{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    position: fixed;
-}
 .navlinks{
     margin-left: 50px;  
+}
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
 }
 .icons{
     color:white;
@@ -68,10 +69,15 @@ body{
     align-items: center;
     margin-right: 250px;
 }
-.menu{
-    color:white;
+.menu {
+    color: white;
     display: flex;
-    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.menu:hover{
+    background-color: rgb(35, 34, 34);
+    
 }
 .icons:hover{
     background-color: rgb(35, 34, 34);
@@ -116,6 +122,9 @@ body{
     background-color: black;
     color: white;
 }
+.about a{
+    color: white;
+}
 .footer{
     background-color: black;
     color: white;
@@ -137,6 +146,9 @@ body{
     font-size: 17px;
     display: flex;
     justify-content: center;
+}
+.contacts a{
+    color: white;
 }
 .copyright ul{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
